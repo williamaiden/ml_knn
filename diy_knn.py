@@ -61,7 +61,7 @@ def main():
     training_set = []
     test_set = []
     split = 0.67
-    load_data_set(r"knn.txt", split, training_set, test_set)
+    load_data_set(r"knn_iris.txt", split, training_set, test_set)
     print(len(training_set))
     print(training_set)
     print(len(test_set))
